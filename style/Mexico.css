@@ -1,0 +1,162 @@
+header{
+    width: 100%;
+    height: 150px;
+}
+
+header #logo{
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header h1{
+    text-align: center;
+}
+
+
+nav{
+    background-color: white;
+    color: black;
+    width: 80%;
+    margin: auto;
+    border-top: solid 1px black;
+}
+
+nav a{
+    margin: 10px;
+    color: black;
+}
+
+.links{
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.copertina{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+}
+
+#buenavista{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+
+
+#articoli{
+    display: grid;
+    margin: auto;
+    padding: 15px;
+    max-width: 80%;
+    margin-top: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    padding-top: 50px;
+
+}
+
+
+
+#articolo1{
+    grid-row: 1;
+    grid-column: 1;
+    margin: 10px;
+    border-radius: 10px;
+}
+#articolo2{
+    grid-row: 1;
+    grid-column: 2;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+#articolo3{
+    grid-row: 1;
+    grid-column: 3;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.immagine img{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+.art p, h2{
+    margin-left: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.art:hover{
+    background-color: #f2f2f2;
+}
+
+
+footer{
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+    background-color: #f4f4f4;
+    font-size: 1.2rem;
+}
+
+#footerIntero{
+    width: 80%;
+    margin: auto;
+}
+
+#footerIntero #footerSinistro{
+    width: 50%;
+    float: left;
+}
+
+#footerIntero #footerDestro{
+    width: 50%;
+    float: right;
+}
+
+
+@media screen and (max-width: 1500px) {
+
+    #articoli {
+        display: inherit;
+    }
+
+}
