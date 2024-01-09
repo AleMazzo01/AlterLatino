@@ -128,8 +128,17 @@ footer{
 }
 
 @media screen and (max-width: 1500px){
+
+    header{
+        height: 200px;
+    }
+
+    nav a{
+        font-size: 2rem;
+        margin-bottom: 100px;
+    }
     svg{
-        width: 70%;
+        width: 90%;
         height: 20%;
         display: block;
         margin-left: auto;
@@ -150,10 +159,16 @@ footer{
         display: initial;
         width: 100%;
         text-align: center;
+
+    }
+
+    .center{
+        font-size: 5rem;
     }
 
     .copertina{
         margin-bottom: 100px;
+        margin-top: 50px;
     }
 
     footer{
