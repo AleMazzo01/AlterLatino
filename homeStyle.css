@@ -136,6 +136,7 @@ footer{
     nav a{
         font-size: 2rem;
         margin-bottom: 100px;
+        margin: 30px;
     }
     svg{
         width: 90%;
